@@ -1,0 +1,91 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package project2;
+
+import java.awt.event.ActionEvent;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author Hp Beats Audio
+ */
+public class ServerWindowTest {
+    
+    public ServerWindowTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
+
+    /**
+     * Test of actionPerformed method, of class ServerWindow.
+     */
+    @Test
+    public void testActionPerformed() {
+        System.out.println("actionPerformed");
+        ActionEvent e = null;
+        ServerWindow instance = new ServerWindow();
+        instance.actionPerformed(e);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of runServer method, of class ServerWindow.
+     */
+    @Test
+    public void testRunServer() {
+        System.out.println("runServer");
+        int port = 0;
+        ServerWindow instance = new ServerWindow();
+        instance.runServer(port);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of closeServer method, of class ServerWindow.
+     */
+    @Test
+    public void testCloseServer() {
+        System.out.println("closeServer");
+        ServerWindow instance = new ServerWindow();
+        instance.closeServer();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of main method, of class ServerWindow.
+     */
+    @Test
+    public void testMain() {
+        System.out.println("main");
+        String[] args = null;
+        ServerWindow.main(args);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+    
+}
